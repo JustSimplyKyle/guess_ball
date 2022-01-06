@@ -74,7 +74,7 @@ int main(){
     std::vector<int> correct=testequals(number,input_num);
     for(int i=0;i<correct.size();++i){
         std::cout<< "Number " << (correct[i])+1 << " guess correctly!\n";
-        std::cout<< "The number you have guessed is " << number[i] << std::endl;
+        std::cout<< "The number you have guessed is " << number[correct[i]] << std::endl;
     }
     if(correct.empty()){
         std::cout<<"Every number you have guess is incorrect!\n";
