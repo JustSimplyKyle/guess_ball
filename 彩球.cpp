@@ -41,7 +41,7 @@ int main() {
         return 0;
     }
     answer = generateUniqueRandomArray(size, rangeL, rangeR);
-    printf("User input \n(%d~%d)\n", rangeL, rangeR);
+    printf("User input (%d~%d)\n", rangeL, rangeR);
     vector<int> input(size);
     for (int i = 0; i < size; i++) {
         cin >> input[i];
